@@ -1,0 +1,21 @@
+discord:
+  token: "" # Discord Developer Token ==> Discord.com/developers/applications
+  log_channel: "" # Discord ID channel
+
+pactify_api:
+  players: "https://www.pactify.fr/players"
+
+database:
+  ip: "127.0.0.1"
+  port: "3306"
+  db_name: "pactify"
+  username: "lepotekil"
+  password: "VxJEwTJG5CBwiaSe82i2MUA1c6MHp3Ce"
+
+migrations:
+  folder: "sql/"
+
+proxy_list: # Proxys example from https://www.webshare.io/ (100 minimums)
+    - "http://lepotekil:passwd@64.137.57.52:6001"
+    - "http://lepotekil:passwd@64.137.57.119:6122"
+    - "http://lepotekil:passwd@145.223.41.99:6811"
